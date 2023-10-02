@@ -9,7 +9,7 @@ public class CodeTest {
 	double perMonthIncrease = 1800;
 	for (int i = 1; i <= 12; i++) {
 	    SI = (fixedRate * (principal + (i * perMonthIncrease)));
-	    amount = SI;
+	    amount = SI+amount;
 	    System.out.println("value " + i + " and value " + amount);
 	}
 
